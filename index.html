@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Investment Platform</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="brand">MrSimon-Legit-Trade </h1>
+    <nav>
+      <a class="nav-link" href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Grow your money with simple plans</h2>
+      <p>Choose a plan, contact admin on WhatsApp to invest, then use your code on the dashboard.</p>
+      <div class="live-stats">
+        <div>Viewers: <span id="viewerCount">0</span></div>
+        <div>Investors: <span id="investorCount">0</span></div>
+      </div>
+    </section>
+
+    <section class="plans" id="plans">
+      <!-- plan cards inserted by JS -->
+    </section>
+  </main>
+
+  <div id="notif" class="notif" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
